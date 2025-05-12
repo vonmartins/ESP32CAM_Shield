@@ -4498,7 +4498,7 @@
 		(at 126.822 92.362 -90)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW2"
-			(at 4.92 0.33 180)
+			(at -4.986 0.33 180)
 			(layer "F.SilkS")
 			(uuid "520ce9fd-0f50-4299-8560-57c08ce15f16")
 			(effects
@@ -4830,7 +4830,7 @@
 			(uuid "9d4bde29-fc32-45b6-8efc-4868336c8b15")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.92 0.33 180)
+			(at -4.986 0.33 180)
 			(layer "F.Fab")
 			(uuid "c973ef33-2928-4b2e-9725-f2f1d37feb2e")
 			(effects
@@ -8071,7 +8071,7 @@
 		(at 151.054 92.65 90)
 		(descr "Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf")
 		(property "Reference" "SW1"
-			(at -5.394 0.33 180)
+			(at 5.147 0.33 180)
 			(layer "F.SilkS")
 			(uuid "e9c435f8-3c2d-4351-9631-db7697d5a22b")
 			(effects
@@ -8403,7 +8403,7 @@
 			(uuid "e7ed2490-7a0f-40f8-bf2d-915f927601c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.394 0.33 180)
+			(at 5.147 0.33 180)
 			(layer "F.Fab")
 			(uuid "7d15672b-b041-46ca-a0c1-7ddad0070944")
 			(effects
@@ -12243,6 +12243,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ffc617dd-cfe0-480d-8bb1-140a554ea6ae")
+	)
+	(gr_text "ON/OFF"
+		(at 124.841 98.044 0)
+		(layer "F.SilkS")
+		(uuid "0192de90-a0e0-4aeb-a8a9-f5e0f7667a19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 149.225 98.425 0)
+		(layer "F.SilkS")
+		(uuid "65fa5eb7-f356-4e1b-8c75-7d6ec1d6cfca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Designed by VonMartins \nRev 1.0 - 10/05/2025"
 		(at 147.701 96.52 0)
